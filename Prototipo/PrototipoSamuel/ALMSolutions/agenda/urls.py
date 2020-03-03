@@ -6,3 +6,4 @@ urlpatterns = [
     path('eventos/', views.home),
     path('agenda/', views.agenda),
 ]
+
