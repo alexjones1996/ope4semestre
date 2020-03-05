@@ -9,8 +9,10 @@ from django.shortcuts import render
 
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
+
 def index(request):
     return render(request, 'index.html')
+
 
 def home(request):
     service = buildService()

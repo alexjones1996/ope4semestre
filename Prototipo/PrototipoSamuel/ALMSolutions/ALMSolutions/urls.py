@@ -20,7 +20,7 @@ from agenda.views import home
 
 
 urlpatterns = [
-    path('', include('agenda.urls')),
-    ##path(' ',include('agenda.urls')),
+    path('',include('agenda.urls')),
+    ##path('',include('agenda.urls')),
     path('admin/', admin.site.urls),
 ]

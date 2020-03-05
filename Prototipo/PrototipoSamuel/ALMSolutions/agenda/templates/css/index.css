@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Century Ghotic";
+	font-size: 10px;
+	color: #FFF;
+	background: #3b364d;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#geral_home{
+	width:940px;
+	height:860px;
+	margin:auto;
+	text-transform: uppercase;
+
+}
+
+
+.topo{
+	width:940px;
+	height:220px;
+	background:url(../img/titulo%20topo.png);
+	
+}
+
+.menu{
+	text-transform: uppercase;
+}
+
+.menu ul{
+	padding:0;
+}
+
+.menu ul li{
+	width:188px;
+	height:40px;
+	background: #000;
+	position: relative;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	line-height:40px;
+	font-size:16px;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+.menu ul li a:hover{
+	text-decoration: underline;
+	color: #F00;
+	font-family: inherit;
+}
+
+
+.menu ul li a.active{
+	color:#F00;
+	text-decoration:none;
+}
+
+.menu ul ul{
+	display:none;
+}
+
+.menu ul li:hover > ul{
+	display:block;
+}
+
+.menu ul ul ul{
+	margin-left:189px;
+	top:0;
+	position:absolute;
+	
+}
+
+.foto_home{
+	width:940px;
+	height:400px;
+	margin-bottom:60px;
+}
+
+button {
+	margin-bottom: 10px;
+	width: 300px;
+	height: 50px;
+	background: black;
+	border: none;
+	border-radius: 10px;
+	font-family: "Century Ghotic";
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+button:hover {
+	background: gray;
+	color: black;
+}
+
+
+
+
+footer{	
+	background-color:#FFF;
+}
+
+footer div.dados{
+	font-family: "Century Ghotic";
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+
+}
+
+
+/*
+.rodape{
+	width:100%;
+	height:175px;
+	background:url(../img/ropade.png);
+}
+
+.dados{
+	font-family: "Century Ghotic";
+	width: 440px;
+	height: 160px;
+	margin: auto;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	line-height: 25px;
+
+
+}
+
+.footer{
+	background: #ffffff;
+	text-align:center
+    display: flex;
+
+
+}
+*/
+
+
+
+
+/* fim da pagina inicial */
+
+/* inicio da pagina historico */
+
+#geral_historico{
+	width: 940px;
+	height: 850px;
+	margin: auto;
+	position: relative
+}
+
+
+.fundo_historico{
+	width:940px;
+	height:600px;
+	margin-top:45px;
+}
+
+/* fim da pagina historico*/
+
+/* inicio da pagina organograma */
+
+#geral_organograma{
+	width: 940px;
+	height: 850px;
+	margin: auto;
+	position: relative
+}
+
+
+.fundo_organograma{
+	width:940px;
+	height:600px;
+	margin-top:45px;
+}
